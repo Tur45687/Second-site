@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    cursor: default;
+}
+
+.menu {
+    background: purple;
+    border-radius: 0 21px 21px 0;
+    color: white;
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    margin-top: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-style: oblique;
+    cursor: default;
+    display: block;
+    transition: 0.9s;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    cursor: default;
+}
+
+p {
+    line-height: 30px;
+}
+
+.Showcase-img {
+    width: 400px;
+    height: 200px;
+
+}
+
+.Showcase-img:nth-child(2n+1) {
+    margin-left: 50px;
+}
+
+.Showcase {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+hr {
+    height: 7px;
+    margin: 10px 0;
+    background: linear-gradient(to left, #7f00ff, #ff7b00);
+    border: none;
+    border-radius: 30px;
+
+}
+
+.Services {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+div {
+    margin: 20px 0;
+}
+
+.Designers {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+.h1 {
+    text-align: left;
+    font-size: 60px;
+    color: purple;
+}
+
+.packeges {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.packeges p {
+    text-align: left;
+}
+
+.p-card {
+    border-radius: 30px;
+    background: linear-gradient(to left, rgba(150, 147, 153, 0.10), rgba(165, 107, 209, 0.10));
+    width: 45%;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+#Basic {
+    background: #7f00ff;
+    border-radius: 30px;
+    padding: 20px 0;
+}
+
+#Pro {
+    background: #ff5454;
+    border-radius: 30px;
+    padding: 20px 0;
+}
+
+.d-card {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+.d-card img {
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.d-card p {
+    background: linear-gradient(to left, rgba(150, 147, 153, 0.10), rgba(165, 107, 209, 0.10));
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.Dolznost {
+    margin-bottom: 5px;
+    color: #878787;
+    display: block;
+}
+
+.Name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.Ul li {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-color: #e0b779;
+    border-top-color: #e0b779;
+    padding: 10px 0;
+}
+
+.BTN-Conteier {
+    border-bottom-color: rgba(0, 0, 0, 0) !important;
+}
+
+.Ul li:nth-of-type(1) {
+    border-top-color: rgba(0, 0, 0, 0) !important;
+}
+
+.Btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    line-height: 50px;
+
+}
+
+.Red {
+    background: orangered;
+    color: ghostwhite;
+}
+
+.White {
+    background: white;
+    color: darkviolet;
+}
+
+.Contact {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.Btn-Contact {
+    border-radius: 40px;
+    background: purple;
+    width: 100%;
+    line-height: 30px;
+    color: ghostwhite;
+    font-size: 20px;
+    border: none;
+    
+}
+
+.Contact-input input{
+       display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
